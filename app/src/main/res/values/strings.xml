@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ANote</string>
+
+    <string name="setting_name">settings</string>
+    <string name="default_uid">0</string>
+    <string name="default_uname">ANote</string>
+    <integer name="default_fontSize">14</integer>
+
+    <string name="default_title">未命名</string>
+
+    <string name="default_status">登录</string>
+    <string name="add">+</string>
+
+    <string name="EA_title">标题</string>
+    <string name="change">修改标题</string>
+    <string name="content_hint">在此输入内容</string>
+
+</resources>

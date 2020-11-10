@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_setting"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="设置"
+        android:onClick="setting"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_user"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/default_status"
+        android:onClick="login"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_reg"
+        android:title="注册"
+        android:onClick="reg"/>
+</menu>
